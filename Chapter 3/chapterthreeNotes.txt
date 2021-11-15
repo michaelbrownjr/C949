@@ -1,0 +1,21 @@
+Notes:
+Introduction to algorithms
+
+A computationl problem can be solved in many ways, but finding
+the best algorithm to solve a problem can be challenging.
+
+Application domain:
+1. DNA analysis
+2. Search engines
+3. Navigation
+
+Computational problem:
+1. Given two DNA sequences from different individuals, what is the longest shared sequence of nucleotides?
+2. Given a product ID and a sorted array of all in-stock products, is the product in stock and what is the product's price?
+3. Given a user's current location and desired location, what is the fastest route to walk to the destination?
+
+Common algorithm:
+1. Longest common substring: The longest common substring algorithm determines the longest common substring that exists in two inputs strings. DNA sequences can be represented using strings consisting of the letters A, C, G, and T to represent the four different nucleotides
+2. Binary search: The binary search algorithm is an efficient algorithm for searching a list. The list's elements must be sorted and directly accessible (such as an array).
+3. Dijkstra's shortest path: Dijkstra's shortest path algorithm determines the shortest path from a start vertex to each vertex in a graph. The possible routes between two locations can be represented using a graph, where vertices represent specific locations and connecting edges specify the time required to walk between those two locations.
+
