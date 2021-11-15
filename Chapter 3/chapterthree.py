@@ -1,6 +1,12 @@
-# Notes:
-# Introduction to algorithms
+from typing import Any
 
-# A computationl problem can be solved in many ways, but finding
-# the best algorithm to solve a problem can be challenging.
+
+names = ['Michael', 'Fatima', 'Joy', 'Geraldine']
+
+print('Lets add some more names to the list. Add a name: ')
+newName = input()
+
+names.append(newName)
+print('There are now ', len(names), ' names in the list.')
+print('The new name added was,', newName)
 
