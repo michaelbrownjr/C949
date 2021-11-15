@@ -1,3 +1,6 @@
+# Notes: 
+# Chapter 2 introduced basic python syntax, operations, and i/o
+
 hours = 40
 weeks = 50
 hourly_wage = int(input('Enter hourly wage: '))
