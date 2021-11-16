@@ -1,5 +1,6 @@
 import random
 
+
 numToGuess = int(input('Enter the number the computer has to guess:'))
 
 def guessingGame(num):
