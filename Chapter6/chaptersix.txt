@@ -1,4 +1,10 @@
-This chapter is about functions, however, I used this 
-to beginning to test out BigO complexities.
-I'll continue to edit this going forward when testing
-more efficient algorithms.
+This chapter is about functions, however, I used this to beginning to test out BigO complexities. I'll continue to edit this going forward when testing more efficient algorithms.
+
+Python uses dynamic typing, instead of static typing like in Java, to allow more flexibility in terms of the code that programmer can write, but at the expense of potentially introducing more bugs, since there is no compilation process by whgich types can be checked.
+
+Global variables can only be changed inside of a function when using the 'global' keyword.
+
+User generated global function namespaces override built-in namespaces.
+
+String and integers are immutable outside of the function it is passed into. 
+Lists and dictionaries are mutable outside of the function it is passed into. 
