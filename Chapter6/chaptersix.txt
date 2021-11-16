@@ -1,0 +1,4 @@
+This chapter is about functions, however, I used this 
+to beginning to test out BigO complexities.
+I'll continue to edit this going forward when testing
+more efficient algorithms.
