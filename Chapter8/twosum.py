@@ -8,13 +8,14 @@ class Solution:
         j = 1
         
         while (self.nums[i] + self.nums[j]) != self.target:
-            print('%d and %d don\'t match' % (self.nums[i], self.nums[j]))
             if j < len(self.nums) - 1:
                 j += 1
             else:
                 i += 1
                 j-= 1
+        return('[%d, %d]' % (i,j))
 
-
-guesses = Solution([11, 2, 15, 7], 9)
+nums = [30, 12, 10, 1]
+target = 40
+guesses = Solution(nums, target)
 print (guesses.twoSum())
