@@ -14,7 +14,6 @@ class Solution:
             else:
                 i += 1
                 j-= 1
-                    # return('%d and %d does match %d' % (numbers, self.nums[j], self.target))
 
 
 guesses = Solution([11, 2, 15, 7], 9)
