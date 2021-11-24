@@ -3,6 +3,9 @@
 
 # print(my_list)
 
+def Average(list):
+    return sum(list) / len(list)
+
 inp = input('Enter numbers:')
 my_list = [int(i) for i in inp.split()]
 
@@ -17,3 +20,6 @@ print(min_row)
 my_list = [[5, 10, 15], [2, 3, 16], [100]]
 sum_list = [sum(row) for row in my_list]
 print(sum_list)
+
+avg_list = [round((Average(row))) for row in my_list]
+print(avg_list)
